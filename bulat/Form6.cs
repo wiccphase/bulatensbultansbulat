@@ -37,9 +37,9 @@ namespace bulat
             if (CheckUser())
                 return;
             if (command.ExecuteNonQuery() == 1)
-                MessageBox.Show("Да");
+                MessageBox.Show("Вы успешно зарагеистрировались");
             else
-                MessageBox.Show("nea");
+                MessageBox.Show("Нет");
 
             command.ExecuteNonQuery();
 

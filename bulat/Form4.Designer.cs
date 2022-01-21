@@ -78,8 +78,9 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 40);
             this.button3.TabIndex = 65;
-            this.button3.Text = "button3";
+            this.button3.Text = "Перейти";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -87,8 +88,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 40);
             this.button2.TabIndex = 64;
-            this.button2.Text = "button2";
+            this.button2.Text = "Перейти";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -96,8 +98,9 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 40);
             this.button1.TabIndex = 63;
-            this.button1.Text = "button1";
+            this.button1.Text = "Перейти";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox6
             // 
@@ -195,9 +198,9 @@
             this.label24.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label24.Location = new System.Drawing.Point(509, 448);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(176, 20);
+            this.label24.Size = new System.Drawing.Size(106, 20);
             this.label24.TabIndex = 52;
-            this.label24.Text = "AKGUN ISTANBUL HOTEL";
+            this.label24.Text = "Lerontes Hotel";
             // 
             // pictureBox3
             // 

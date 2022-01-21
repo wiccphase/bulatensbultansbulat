@@ -58,7 +58,7 @@ namespace bulat
 
             }
             else
-                MessageBox.Show("не харош ");
+                MessageBox.Show("Неверный логин или пароль");
 
         }
 

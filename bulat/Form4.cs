@@ -23,5 +23,38 @@ namespace bulat
             frm2.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string hotel = "Luxembourg Hotel ";
+            Form8 frm8 = new Form8();
+            frm8.Show();
+            frm8.qweasd.Text = "Выбранный отель:" + hotel;
+
+
+            frm8.qweasd1.Image = Properties.Resources._4;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string hotel = "MEGARON HOTEL";
+            Form8 frm8 = new Form8();
+            frm8.Show();
+            frm8.qweasd.Text = "Выбранный отель:" + hotel;
+
+
+            frm8.qweasd1.Image = Properties.Resources._5;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string hotel = "Lerontes Hotel";
+            Form8 frm8 = new Form8();
+            frm8.Show();
+            frm8.qweasd.Text = "Выбранный отель:" + hotel;
+
+
+            frm8.qweasd1.Image = Properties.Resources._6;
+        }
     }
 }

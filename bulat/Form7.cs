@@ -49,7 +49,7 @@ namespace bulat
             if (command.ExecuteNonQuery() == 1)
                 MessageBox.Show("Ваша заявка принята.Ожидайте нашего ответа на почту.");
             else
-                MessageBox.Show("nea");
+                MessageBox.Show("Проверьте указанные данные");
 
             command.ExecuteNonQuery();
         }
